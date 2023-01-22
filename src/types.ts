@@ -10,6 +10,7 @@ export interface CombinedCommand extends ApplicationCommandPartial {
         ctx: Message | ApplicationCommandInteraction,
         options?: any
     ) => void | Promise<void>;
-    useSuffix?: boolean;
+    onlyMessage?: boolean;
+    onlySlash?: boolean;
     perms?: string[];
 }
