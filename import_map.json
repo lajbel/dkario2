@@ -1,0 +1,8 @@
+{
+    "imports": {
+        "harmony": "https://deno.land/x/harmony@v2.8.0/mod.ts",
+        "dotenv": "https://deno.land/x/dotenv@v3.2.0/mod.ts",
+        "dotenv/load": "https://deno.land/x/dotenv@v3.2.0/load.ts",
+        "replit_database": "https://deno.land/x/replit_database@v1.1/mod.ts"
+    }
+}
